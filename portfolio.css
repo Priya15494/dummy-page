@@ -1,0 +1,342 @@
+.root{
+	font-size: 16px;
+}
+body{
+	margin: 0%;
+	width: 100%;
+	
+	}
+.container{
+		display:flex;	
+		flex-direction: column;	
+		background: #FFF5EE;
+}
+
+.head{
+	position: relative;
+	top: 1px;
+	margin: 1%;
+	display: box;
+}
+
+.header{
+	font-size: 2rem;
+	color:#000000;
+	
+	font-style: normal;
+	padding: 0%;
+	float: right;
+	margin-right: 3.5%
+}
+.myimage img{
+	position: relative;
+	margin-top: 1.2%;
+	padding: 0%;
+	border: 0.5px solid #B0E0E6;
+ 	border-radius: 3%;
+	margin-left: 0.5%;
+	margin-right: 3%;
+	float: right;
+	width: 20vw;
+	height: 36vh;
+}
+
+.Introduction section{	
+	position: relative;
+	margin-top: 1%;
+	margin-left: 1.1%;
+	background: #B0E0E6;	
+	width: 62%;
+	height: 38%;
+	font-size: 1.5rem;
+	padding: 6.5%;
+	float: left;
+	color: #000000;
+	line-height: 1vh;
+}
+
+
+.Aboutme section{
+	position: relative;
+	margin-top: 0.5%;
+	margin-left: 1%;
+	background: #B0E0E6;	
+	width: 95%;
+	height: 20%;
+	font-size: 1.3rem;
+	padding: 0.5%;
+	float: left;
+	color: #000000;
+	line-height: 3vh;
+}
+p{
+	font-size: 1.25rem;
+	color: #000000;
+}
+.Interests section{
+	position: relative;
+	margin-top: 0.5%;
+	margin-left: 1%;
+	background: #B0E0E6;	
+	width: 75%;
+	height: 20%;
+	font-size: 1.3rem;
+	padding: 0.5%;
+	float: left;
+	color: #000000;
+	line-height: 3vh;
+}
+
+.interstsimg img{
+	position: relative;
+	margin-top: 0.5%;
+	padding: 1%;
+ 	
+ 	border: 0.5px solid #B0E0E6;
+ 	border-radius: 3%;
+	margin-left: 0.5%;
+	margin-right: 3%;
+	float: right;
+	width: 17vw;
+	height: 25vh;
+}
+
+.Professionalexp section{
+	position: relative;
+	margin-top: 0.5%;
+	margin-left: 1%;
+	background: #B0E0E6;	
+	width: 75%;
+	height: 20%;
+	font-size: 1.3rem;
+	padding: 0.5%;
+	float: left;
+	color: #000000;
+	line-height: 3vh;
+}
+
+.professionalimg img{
+	position: relative;
+	margin-top: 0.5%;
+	padding: 1%;
+ 	border: 0.5px solid #B0E0E6;
+ 	border-radius: 3%;
+	margin-left: 0.5%;
+	margin-right: 3%;
+	float: right;
+	width: 17vw;
+	height: 25vh;
+}
+
+.web{
+	position: relative;
+	margin-top: 0.5%;
+	margin-left: 1%;
+	font-size: 1.5rem;
+	padding: 0.5%;
+	float: left;
+	
+	line-height: 3vh;
+}
+.web p{
+	color: #000000;
+	font-style: bold;
+	font-weight: 300;
+}
+ul li{
+	font-size: 1.25rem;
+}
+.contact{
+	margin-left: 1%;
+	margin-top: 0.1%;
+	line-height: 1vh;
+}
+
+.icon-group img{
+	width: 2vw;
+	height: 2vw;
+}
+
+@media screen and (min-width: 480px) and (max-width: 720px){
+	.header{
+		float: left;
+		margin-left: 2%;
+	}
+	.myimage img{
+		margin-left: 2%;
+		float: left;
+		width: 40vw;
+		height: 30vh;
+	}
+
+	.Introduction section{	
+		width: 100%;
+		height: 38%;
+		padding: 4%;
+	}
+	.Aboutme section{
+		font-size: 1rem;
+	}
+	
+	p{
+		font-size: 1rem;
+	}
+	.Interests section{
+		width: 100%;
+		height: 38%;
+		font-size: 1rem;
+	}
+
+	.interstsimg img{
+		float: left;
+		height: 30vh;
+		width: 40vw;
+		margin-left: 5%;
+	}
+	.Professionalexp section{
+		width: 100%;
+		height: 38%;
+		font-size: 1rem;
+	}	
+
+	.professionalimg img{
+		float: left;
+		height: 30vh;
+		width: 40vw;
+		margin-left: 5%;
+	}
+	.web{
+		font-size: 1rem;
+	}
+
+	
+
+	.icon-group img{
+	width: 3vw;
+	height: 3vw;
+}
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+	.header{
+		float: left;
+	}
+	.myimage img{
+		margin-left: 25%;
+		float: left;
+		width: 50vw;
+		height: 20vh;
+	}
+
+	.Introduction section{	
+		width: 100%;
+		height: 40%;
+		padding: 5%;
+		font-size: 1rem;
+	}
+	.Aboutme section{
+		font-size: 1.1rem;
+	}
+	
+	p{
+		font-size: 1rem;
+	}
+	.Interests section{
+		width: 100%;
+		height: 38%;
+		font-size: 1.1rem;
+	}
+
+	.interstsimg img{
+		float: left;
+		height: 25vh;
+		width: 40vw;
+		margin-left: 5%;
+	}
+	.Professionalexp section{
+		width: 100%;
+		height: 38%;
+		font-size: 1.2rem;
+	}	
+
+	.professionalimg img{
+		float: left;
+		height: 30vh;
+		width: 40vw;
+		margin-left: 5%;
+	}
+	.web{
+		font-size: 1.1rem;
+	}
+	ul li{
+	font-size: 1rem;
+	}
+	.icon-group img{
+	width: 3vw;
+	height: 3vw;
+	}
+}
+
+@media screen and (max-width: 320px){
+	.header{
+		float: left;
+		font-size: 1rem;
+	}
+
+	.myimage img{
+		margin-left: 25%;
+		float: left;
+		width: 50vw;
+		height: 20vh;
+	}
+
+	.Introduction section{	
+		width: 100%;
+		height: 30%;
+		padding: 3%;
+		font-size: 0.8rem;
+	}
+	.Aboutme section{
+		font-size: 0.8rem;
+	}
+	
+	p{
+		font-size: 1rem;
+	}
+	.Interests section{
+		width: 100%;
+		height: 38%;
+		font-size: 0.8rem;
+	}
+
+	.interstsimg img{
+		float: left;
+		height: 10vh;
+		width: 35vw;
+		margin-left: 5%;
+	}
+	.Professionalexp section{
+		width: 100%;
+		height: 38%;
+		font-size: 0.8rem;
+	}	
+
+	.professionalimg img{
+		float: left;
+		height: 10vh;
+		width: 35vw;
+		margin-left: 5%;
+	}
+	.web{
+		font-size: 1.2rem;
+	}
+	ul li{
+	font-size: 1rem;
+	}
+	.icon-group img{
+	width: 3vw;
+	height: 3vw;
+	}
+}
